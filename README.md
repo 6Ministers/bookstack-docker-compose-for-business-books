@@ -112,3 +112,12 @@ docker-compose down
 
 ## Documentation
 
+https://www.bookstackapp.com/docs/admin/installation/#docker
+
+https://github.com/linuxserver/docker-bookstack
+
+https://github.com/linuxserver/docker-bookstack/pkgs/container/bookstack
+
+https://github.com/linuxserver/docker-bookstack/issues
+
+
