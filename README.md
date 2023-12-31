@@ -22,7 +22,7 @@ Install docker and docker-compose:
 curl -s https://raw.githubusercontent.com/6Ministers/bookstack-docker-compose-for-business-books/master/setup.sh | sudo bash -s
 ```
 
-Download Flectra 2.0 instance:
+Download BookStack instance:
 
 ``` bash
 curl -s https://raw.githubusercontent.com/6Ministers/bookstack-docker-compose-for-business-books/master/download.sh | sudo bash -s bookstack
@@ -63,7 +63,7 @@ Then open `https://bookstack.your-domain.com:` to access BookStack
 
 ## BookStack container management
 
-**Run BookStac**:
+**Run BookStack**:
 
 ``` bash
 docker-compose up -d
