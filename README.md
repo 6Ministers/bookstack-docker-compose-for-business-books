@@ -54,6 +54,24 @@ https://bookstack.your-domain.com:443 {
 }
 ```
 
+In the configuration file `docker-compose`, set the following parameters. Specify your domain (subdomain):
+
+``` bash
+      - APP_URL=https://bookstack.your-domain.com
+```
+
+``` bash
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - APP_URL=https://bookstack.your-domain.com
+      - DB_HOST=bookstack_db
+      - DB_PORT=3306
+      - DB_USER=bookstack
+      - DB_PASS=mydbpass
+      - DB_DATABASE=bookstackapp
+```
+
 Run BookStack:
 ``` bash
 docker-compose up -d
