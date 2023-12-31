@@ -6,7 +6,7 @@
 
 ## 1. BookStack Server Requirements
 From and more
-- 1 CPUs
+- 2 CPUs
 - 2 RAM 
 - 10 Gb 
 
