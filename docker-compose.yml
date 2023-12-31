@@ -18,8 +18,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-#      - APP_URL=http://flectracrm.6ministers.com:6875
-      - APP_URL=https://flectracrm.6ministers.com
+      - APP_URL=https://bookstack.your-domain.com
       - DB_HOST=bookstack_db
       - DB_PORT=3306
       - DB_USER=bookstack

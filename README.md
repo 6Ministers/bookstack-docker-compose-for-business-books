@@ -61,6 +61,11 @@ docker-compose up -d
 Then open `https://bookstack.your-domain.com:` to access BookStack
 
 
+Login: `admin@admin.com`
+
+Password:`password`
+
+
 ## BookStack container management
 
 **Run BookStack**:
